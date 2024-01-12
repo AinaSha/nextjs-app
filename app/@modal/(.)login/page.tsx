@@ -1,5 +1,8 @@
+import Modal from "../../components/Modal";
+
 export default function Login() {
   return (
+    <Modal>
       <div className="flex items-center justify-center h-screen">
           <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
               <h1 className="text-2xl font-bold mb-4">Login Soft navigation</h1>
@@ -43,5 +46,7 @@ export default function Login() {
               </form>
           </div>
       </div>
+    </Modal>
+     
   )
 }
